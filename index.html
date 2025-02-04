@@ -3,12 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agência de Viagem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/LOGO.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons.png" type="image/x-icon">
+    <title>Agência de Viagens</title>
 </head>
 <body>
-    
-    
-    
-    
+    <header>
+        <div class="navegacao">
+            <h1>AGÊNCIA DE VIAGENS</h1>
+            <nav>
+                <a href="#">INÍCIO</a>
+                <a href="#">DESTINOS</a>
+                <a href="#">PACOTES</a>
+                <a href="#">CONTATO</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2 class="destinos">DESTINOS POPULARES</h2>
+            <ul>
+                <li><img src="Assets/mewni.jpg" alt="reino borboleta em mewni">BUTTERFLY KINGDOM, MEWNI</li>
+                <li><img src="Assets/candykingdom.jpg" alt="reino doce em ooo">CANDY KINGDOM, OOO</li>
+                <li><img src="Assets/minecraft.jpg" alt="cenário do minecraft">MINECRAFT</li>
+                <li><img src="Assets/basingse.jpg" alt="ba sing se no reino da terra">BA SING SE, EARTH KINGDOM</li>
+            </ul>
+        </aside>
+
+        <section class="main-content">
+            <h2 class="subtitle">ENCONTRE O SEU DESTINO</h2>
+            <form>
+                <input type="text" placeholder="DIGITE SEU DESTINO..." required>
+                <input type="date" required>
+                <button type="submit">PROCURAR</button>
+            </form>
+        </section>
+
+        <aside class="secondary">
+            <h2 id="pacotes">PROMOÇÕES</h2>
+            <ul>
+                <li><img src="Assets/southpark.jpg" alt="fundo southpark"> <b>SOUTH PARK, USA</b>
+                <br>12X DE $450,00
+                </li>
+                <li><img src="Assets/finalspace.jpg" alt="imagem finalspace">
+                <b>GALAXY ONE, FINAL SPACE</b>
+                <br>10X DE $50,00
+                </li>
+                <li><img src="Assets/hawkins.jpg" alt="laboratório de hawkins">
+                <b>HAWKINS LAB, USA</b>
+                <br>12X DE R$350,00
+            </li>
+            </ul>
+        </aside>
+    </div>
+    <footer class="foot">
+        <p>© 2025 Agência de Viagens - Contato: fanyy@email.com</p>
+    </footer>
 </body>
 </html>
+
