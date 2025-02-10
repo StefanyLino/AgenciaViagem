@@ -13,4 +13,4 @@ No início do projeto, desenvolvi um protótipo de alta fidelidade no Figma, est
 #
 O site de agência de viagens combina a realidade com a fantasia, trazendo opções diretamente de famosos desenhos animados para você escolher! A página web conta com uma header com nav, mostrando as opções da página, imagens com hover e link dos lugares, uma área de pesquisa e um footer!
 
-
+Se você quer ver o resultado, clique nesse [vídeo](Resultado.mp4)!
